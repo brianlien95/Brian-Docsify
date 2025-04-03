@@ -1,4 +1,4 @@
 <!-- docs/_sidebar.md -->
-* [Brian's Docsify](/)
-    
-    * [docsify 教學](docsify/)
+
+* [**docsify 教學**](docsify/README.md)
+* [**好句子**](/good-sentence.md)

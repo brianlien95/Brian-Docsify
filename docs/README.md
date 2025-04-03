@@ -7,3 +7,5 @@
 > 更新時間 : 2025/4/3 
 
 [官方教學網站](https://docsify.js.org/#/zh-cn/)
+
+[docsify的配置+全插件列表](https://cloud.tencent.com/developer/article/2177009)
