@@ -1,6 +1,4 @@
-# Brian's Docsify <!-- {docsify-ignore-all} -->
-
-
+# 夏夜的智識庫 <!-- {docsify-ignore-all} -->
 > 2025/4/3 第一次進行 docsify 的練習
 
 ## docsify 教學 
