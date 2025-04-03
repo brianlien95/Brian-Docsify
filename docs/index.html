@@ -16,16 +16,45 @@
 
   <!-- docsify的主题样式 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-  <!-- 侧边栏插件的样式 -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+
   <style>
+    /* 側邊欄列表項的基本樣式 */
+
+    /* 側邊欄列表項中的鏈接樣式 */
     .sidebar ul li a {
-      font-size: 16px;
+      color: #505d6b;
+      /* 設置鏈接文字顏色為深灰色 */
+      font-size: 15px;
+      /* 設置文字大小 */
+      font-weight: 400;
+      /* 設置文字粗細為正常 */
+      overflow: hidden;
+      /* 超出部分隱藏 */
+      text-decoration: none;
+      /* 移除鏈接下劃線 */
+      text-overflow: ellipsis;
+      /* 文字超出顯示省略號 */
+      white-space: nowrap;
+      /* 防止文字換行 */
+      padding-left: 15px;
+      /* 設置左側內邊距 */
     }
 
+    /* 當前活動項目的鏈接樣式 */
     .sidebar ul li.active>a {
-      font-size: 16px;
+      font-size: 15px;
+      /* 保持文字大小不變 */
       font-weight: 600;
+      /* 設置文字粗細為粗體 */
+    }
+
+    /* 側邊欄中的粗體文字樣式 */
+    .sidebar strong {
+      font-size: 16px;
+      padding-left: 18px;
+      /* 設置左側內邊距 */
+      display: inline-block;
+      /* 設置為行內塊級元素 */
     }
   </style>
 </head>
@@ -54,7 +83,7 @@
       // 侧边栏顶部的标题
       name: '夏夜的智識庫',
       // 点击标题后的跳转地址
-      nameLink: '/',
+      nameLink: '/#/',
       // 禁用emoji
       noEmoji: true,
       // 移动设备合并导航栏到侧边栏
@@ -132,8 +161,6 @@
   <!-- 文本高亮 -->
   <script
     src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
-  <!-- 侧边栏扩展与折叠 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <!-- 页脚信息 -->
   <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 </body>
