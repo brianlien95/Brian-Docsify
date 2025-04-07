@@ -9,9 +9,9 @@ npm i docsify-cli -g
 docsify init ./docs
 docsify serve docs
 ```
-- `npm i docsify-cli -g` -> 全局安裝 docsify-cli，僅需執行一次
-- `docsify init./docs` -> 在你要的資料夾下執行，會自動生成 _sidebar.md 與 index.html
-- `docsify serve docs` -> 本地預覽你的網頁，會自動更新
+- `npm i docsify-cli -g` ⭢ 全局安裝 docsify-cli，僅需執行一次
+- `docsify init./docs` ⭢ 在你要的資料夾下執行，會自動生成 _sidebar.md 與 index.html
+- `docsify serve docs` ⭢ 本地預覽你的網頁，會自動更新
 
 ## 目錄
 目錄一律在 `_sidebar.md` 中設定
