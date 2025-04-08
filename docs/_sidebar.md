@@ -10,7 +10,7 @@
 
 * **筆記**
     * [進階文法W8](/note/GrammarW8-aux.md)
-    * [崩鐵3.3V0]
+    * [崩鐵3.3V0](/train/3.3-V0.md)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQyNTI1M119
+eyJoaXN0b3J5IjpbLTE1NDI5NDM2ODZdfQ==
 -->
